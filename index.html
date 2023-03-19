@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title> personal portfolio </title>
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="responsive.css">
+   <script src="https://kit.fontawesome.com/e7f3ad55ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!--------------header start---------->
+    <div id="header">
+        <div class="container">
+           
+            <!-- Navigation start -->
+            <nav class="navbar">
+                <div class="logo">
+                     <a href="#header">Mohinuddeen.</a>
+                </div>
+
+                <div class="push-left">
+                    <button id="menu-toggler" data-class="menu-active" class="hamburger">
+                      <span class="hamburger-line hamburger-line-top"></span>
+                      <span class="hamburger-line hamburger-line-middle"></span>
+                      <span class="hamburger-line hamburger-line-bottom"></span>
+                    </button>
+
+                    <!--  Menu compatible with wp_nav_menu  -->
+                    <ul id="primary-menu" class="menu nav-menu">
+
+                        <li class="menu-item current-menu-item">
+                            <a class="nav__link"  href="#header">Home</a>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a class="nav__link"  href="#about">About</a>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a class="nav__link"  href="#Services">Services</a>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a class="nav__link"  href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navigation End -->
+            
+           <!-- Hero Section -->
+            <div class="hero">
+                <div class="row hero-row">
+                    <div class="col-lg-6 col-md-12">
+
+                        <!-- hero left area-->
+                        <div class="hero-left-are">
+                            <div class="header-text">
+                                <h1>Hi, I'm  Mohinuddeen,<br> developer from <br> India.</h1>      
+                            </div>
+                            <div class="social-icon">
+                                <div class="getintouch"> <span1><i class="fa-solid fa-arrow-right"></i> </span1><a href="#contact"> Get in touch</a></div>
+                                <div class="social-icon-1">
+                                    <a href="https://github.com/mohinudeen"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://twitter.com/Moinu_kgn"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/moinu_kgn/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/mohinuddeen-azeez-219456237/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- hero right area-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="hero-right-area">
+                            <img src="main-img.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <!--------------header end---------->
+
+
+
+
+
+<!--------------about---------->
+
+
+
+
+
+<div id="about">
+    <div class="container">
+            <div class="about-col">
+                <h1 class="sub-title">About me.</h1>
+                <p> I am a programmer and a stock trader  in India. I create designs/websites for people. I love what I do its addictive. I was an enthusiastic kid who likes to take one step extra in everything I do. one particular day I saw my elder brother opening inspect element on his Computer and I saw a bunch of codes, tags, packs of boxes colors I was amazed to see all that cool stuff there I want to do those things too and that's how i started my journey the world of programming. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('programming')">Programming</p>
+                    <p class="tab-links" onclick="opentab('stocks')">Stocks</p>
+                    <p class="tab-links" onclick="opentab('workouts')">Workouts</p>
+                </div>
+                <div class="tab-contents active-tab" id="programming">
+                    <ul>
+                        <li><span>web devolopmnet</span><br> I am a programmer i create designs/websites for people. I love what I do its addictive. I was an enthusiastic kid who likes to take one step extra in everything I do. one particular day I saw my elder brother opening inspect element on his Computer and I saw a bunch of codes, tags, packs of boxes colors I was amazed to see all that cool stuff there I want to do those things too and that's how i started my journey the world of programming.</li>
+                        <li><span>Web devolopmnet</span><br> web app devolopmnet</li>
+                        <li><span>App devolopmnet</span><br> buliding android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="stocks">
+                    <ul>
+                        <li><span>2020</span><br>I started my trading journey on 2020 covid lockdown times. the most trading knowldege i have today is from a youtuber called sharique samsuddeen sir.</li>
+                        <li><span>2021</span><br> I started to trade invest in stocks for a year consistently with two of my friends saifuddeen hisham and rabeeh T.A </li>
+                        <li><span>2022</span><br> I started to invest morely on swing trades becouse i came to know day trading is not my cup of tea. And i keep investing all smallcap mutal fund companies. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="workouts">
+                    <ul>
+                        <li><span>2019</span><br> i started working out when i was 20 and my body weight was 48kg (6.1'inches tall) i gained 14kg in 6 months after that i couldn't go to gym.</li>
+                        <li><span>2023</span><br> i started to hit gym again successfully completed 2 months and gained 3kg and now i weight 65kg and my goal to hit 75kg body weight in 4 months (july 30).</li>
+                        <li><span>My workout routine</span><br> i follow a workout routine called Push pull leg (PPL) i works out 6 days a weeks first three days i do PPL focusing on my strength and compound moments and so my reps will be between 6-8 on next three days i follow the same PPL but i focus on hypertrophy and my most of the workouts i use cables and mechines and my reps will be 12-15 and down here i will mention my extact workout routines around a week.  </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--------------services---------->
+
+
+
+
+
+<div id="Services">
+   <div class="container">
+      <h1 class="sub-title"> My services. </h1>
+      <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> Hi, i can design devolop you a website for your project.  </p>
+            <a href="#"> Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX design</h2>
+            <p> Hi, I can design you a ui/ux design works for your project. </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>  Hi, i can devolop a fullstack  application for your project. </p>
+            <a href="#"> Learn more</a>
+          </div>
+       </div>
+    </div>
+
+
+
+    <!----------------portfolio------------>
+
+
+
+
+    
+              
+    </div><a href="#" class="btn">See more</a></div>
+
+
+
+    <!--------------contact---------->
+
+
+
+
+    
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me. </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>munnaitw97@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9656076675</p>
+                <div class="social-icons">
+                    <a href="https://github.com/mohinuddeen-97"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Moinu_kgn"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/moinu_kgn/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohinuddeen-azeez-219456237/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Mohinuddeen. made this with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx93AjZ_rHh5kk9breo-TZ7jrToI71ZuyX_BCOmsqYBZb5UukUW6guwu1dE_-09ZHFjZw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent successfully"
+            setTimeout(function(){
+               msg.innerHTML = "" 
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+    $(document).ready(function() {
+  // Toggle menu on click
+  $("#menu-toggler").click(function() {
+    toggleBodyClass("menu-active");
+  });
+
+  function toggleBodyClass(className) {
+    document.body.classList.toggle(className);
+  }
+
+ });
+  </script>
+</body>
+</html>
